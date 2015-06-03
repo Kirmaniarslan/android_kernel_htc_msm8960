@@ -1,0 +1,12 @@
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-pmic.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-storage.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-gpiomux.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-keypad.o  
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-wifi.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-audio.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-camera.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-rfkill.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-regulator.o
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-display.o 
+obj-$(CONFIG_MACH_DELUXE_UB1) += board-deluxe_ub1-gpu.o

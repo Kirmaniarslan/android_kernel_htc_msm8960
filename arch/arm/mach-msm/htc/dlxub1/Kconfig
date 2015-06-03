@@ -1,0 +1,10 @@
+config BOARD_HEADER_FILE
+	string "HTC board specific header file name"
+	default ""
+	
+config MACH_DELUXE_UB1
+        depends on ARCH_APQ8064
+		select MACH_HTC
+        bool "APQ8064 DELUXE_UB1"
+        help
+          Support for the HTC APQ8064 DELUXE_UB1.
